@@ -1,0 +1,194 @@
+{
+  "users": [],
+  "exams": [
+    {
+      "id": 1,
+      "category": "SSC",
+      "name": "SSC CGL Mock Test",
+      "duration_minutes": 10
+    },
+    {
+      "id": 2,
+      "category": "SSC",
+      "name": "SSC CHSL Mock Test",
+      "duration_minutes": 10
+    },
+    {
+      "id": 3,
+      "category": "SSC",
+      "name": "SSC MTS Mock Test",
+      "duration_minutes": 10
+    },
+    {
+      "id": 4,
+      "category": "SSC",
+      "name": "SSC GD Mock Test",
+      "duration_minutes": 10
+    },
+    {
+      "id": 5,
+      "category": "Railway",
+      "name": "RRB NTPC Mock Test",
+      "duration_minutes": 10
+    },
+    {
+      "id": 6,
+      "category": "Railway",
+      "name": "RRB Group D Mock Test",
+      "duration_minutes": 10
+    },
+    {
+      "id": 7,
+      "category": "Railway",
+      "name": "RRB ALP Mock Test",
+      "duration_minutes": 10
+    },
+    {
+      "id": 8,
+      "category": "Banking",
+      "name": "IBPS PO Mock Test",
+      "duration_minutes": 10
+    },
+    {
+      "id": 9,
+      "category": "Banking",
+      "name": "IBPS Clerk Mock Test",
+      "duration_minutes": 10
+    },
+    {
+      "id": 10,
+      "category": "Banking",
+      "name": "SBI PO Mock Test",
+      "duration_minutes": 10
+    },
+    {
+      "id": 11,
+      "category": "Banking",
+      "name": "SBI Clerk Mock Test",
+      "duration_minutes": 10
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "exam_id": 1,
+      "question": "What is the capital of India?",
+      "options": [
+        "Mumbai",
+        "New Delhi",
+        "Kolkata",
+        "Chennai"
+      ],
+      "correct_option": 1
+    },
+    {
+      "id": 2,
+      "exam_id": 1,
+      "question": "Which planet is known as the Red Planet?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Mercury"
+      ],
+      "correct_option": 1
+    },
+    {
+      "id": 3,
+      "exam_id": 1,
+      "question": "What is 15 × 4?",
+      "options": [
+        "45",
+        "50",
+        "60",
+        "75"
+      ],
+      "correct_option": 2
+    },
+    {
+      "id": 4,
+      "exam_id": 1,
+      "question": "Which gas is most abundant in Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon dioxide",
+        "Hydrogen"
+      ],
+      "correct_option": 1
+    },
+    {
+      "id": 5,
+      "exam_id": 1,
+      "question": "Who wrote the Indian national anthem?",
+      "options": [
+        "Bankim Chandra",
+        "Rabindranath Tagore",
+        "Sarojini Naidu",
+        "S. C. Bose"
+      ],
+      "correct_option": 1
+    },
+    {
+      "id": 6,
+      "exam_id": 1,
+      "question": "What is the SI unit of force?",
+      "options": [
+        "Joule",
+        "Watt",
+        "Newton",
+        "Pascal"
+      ],
+      "correct_option": 2
+    },
+    {
+      "id": 7,
+      "exam_id": 1,
+      "question": "Which is the largest ocean?",
+      "options": [
+        "Atlantic",
+        "Indian",
+        "Pacific",
+        "Arctic"
+      ],
+      "correct_option": 2
+    },
+    {
+      "id": 8,
+      "exam_id": 1,
+      "question": "1 kilometre equals how many metres?",
+      "options": [
+        "100",
+        "500",
+        "1000",
+        "1500"
+      ],
+      "correct_option": 2
+    },
+    {
+      "id": 9,
+      "exam_id": 1,
+      "question": "Which is a prime number?",
+      "options": [
+        "21",
+        "27",
+        "29",
+        "33"
+      ],
+      "correct_option": 2
+    },
+    {
+      "id": 10,
+      "exam_id": 1,
+      "question": "CPU stands for?",
+      "options": [
+        "Central Processing Unit",
+        "Computer Personal Unit",
+        "Central Program Utility",
+        "Control Processing User"
+      ],
+      "correct_option": 0
+    }
+  ],
+  "attempts": []
+}

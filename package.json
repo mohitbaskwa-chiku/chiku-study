@@ -1,0 +1,10 @@
+{
+  "name": "chiku-study",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {"dev":"node server.js","start":"node server.js"},
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-session": "^1.18.2"
+  }
+}

@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Chiku Study</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<header><a class="brand" href="/">Chiku <b>Study</b></a><nav><a href="#exams">Exams</a><a href="#results">My Results</a><button id="authBtn">Login</button></nav></header>
+<main>
+<section class="hero"><div><span class="tag">SSC • RAILWAY • BANKING</span><h1>Prepare smarter.<br><em>Score better.</em></h1><p>Real online mock tests, instant results and your own preparation dashboard.</p><button class="cta" onclick="document.querySelector('#exams').scrollIntoView()">Explore Exams</button></div><div class="heroBox"><strong>CHIKU STUDY</strong><span>Online Exam Platform</span><div class="ring">10<br><small>QUESTIONS</small></div><span>Timed • Instant Result</span></div></section>
+<section id="exams" class="section"><div class="heading"><span class="tag">EXAM CATEGORIES</span><h2>Choose your exam</h2></div><div id="examGrid" class="grid"></div></section>
+<section id="results" class="section"><div class="heading"><span class="tag">STUDENT DASHBOARD</span><h2>My Results</h2></div><div id="resultsBox" class="resultsBox">Login to see your test history.</div></section>
+</main>
+<div id="modal" class="modal hidden"><div class="modalCard"><button class="close" onclick="closeModal()">×</button><div id="modalContent"></div></div></div>
+<footer>© 2026 Chiku Study</footer><script src="/app.js"></script></body></html>
