@@ -47,7 +47,9 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(session({secret:process.env.SESSION_SECRET||"change-this-before-production",resave:false,saveUninitialized:false,cookie:{httpOnly:true,sameSite:"lax",maxAge:604800000}}));
 app.use(express.static(path.join(__dirname,"public")));
-
+app.get("/google9b6f653f2e256e9c.html", (req, res) => {
+  res.sendFile(path.join(__dirname, "google9b6f653f2e256e9c.html"));
+});
 app.post("/api/register",(req,res)=>{
  const name=(req.body.name||"").trim(),email=(req.body.email||"").trim().toLowerCase(),password=req.body.password||"";
  if(!name||!email||password.length<6)return res.status(400).json({error:"Name, email and 6+ character password required"});
